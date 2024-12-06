@@ -1,3 +1,4 @@
+![Project Banner](./light color vector background for truck app window.png)
 python version:3.10(updated from 3.8)
 Requirements:
   (a.)Libraries list:
