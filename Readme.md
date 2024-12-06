@@ -1,3 +1,4 @@
+<img src="./light color vector background for truck app window.png" alt="Project Banner" width="100%" />
 
 python version:3.10(updated from 3.8)
 Requirements:
