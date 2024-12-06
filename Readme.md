@@ -1,5 +1,12 @@
-<img src="./light color vector background for truck app window.png" alt="Project Banner" width="100%" />
+<img src="./Screenshot 2024-12-07 020007.png" alt="Project Banner-1" width="100%" height="60%" />
+<br>
+<img src="./Screenshot 2024-12-07 020154.pngg" alt="Project Banner-1" width="100%" height="60%" />
+<br>
+<img src="./Screenshot 2024-12-07 020447.png" alt="Project Banner-1" width="100%" height="60%" />
+<br>
+<img src="./Screenshot 2024-12-07 020534.png" alt="Project Banner-1" width="100%" height="60%" />
 
+<br>
 python version:3.10(updated from 3.8)
 Requirements:
   (a.)Libraries list:
