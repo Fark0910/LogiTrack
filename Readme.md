@@ -1,6 +1,6 @@
 <img src="./Screenshot 2024-12-07 020007.png" alt="Project Banner-1" width="100%" height="60%" />
 <br>
-<img src="./Screenshot 2024-12-07 020154.pngg" alt="Project Banner-1" width="100%" height="60%" />
+<img src="./Screenshot 2024-12-07 020154.png" alt="Project Banner-1" width="100%" height="60%" />
 <br>
 <img src="./Screenshot 2024-12-07 020447.png" alt="Project Banner-1" width="100%" height="60%" />
 <br>
