@@ -7,42 +7,75 @@
 <img src="./Screenshot 2024-12-07 020534.png" alt="Project Banner-1" width="100%" height="60%" />
 
 <br>
-python version:3.10(updated from 3.8)<br>
-Requirements:<br>
-  (a.)Libraries list:<br>
-        1.)Tkinter(tk and ttk<br>
-        2.)mySQL.connector<br>
-        3.)os(path)<br>
-        4.)PIL(image)  <br>
-        5.)reportlab(pdf)<br>
-        6.)CSV<br>
-        7.)pandas(optional)<br>
-  <br>
-  (b.)All the files in repo must be present inside single file in your machine<br>
-        1.)images<br>
-        2.)Two csv file(regdatabase,truckdatabase)<br>
-        3.)sample memo pdf(generated from the programme)<br>
-        4.)py files<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README</title>
+</head>
+<body>
 
-  (c.)paths are used at many places hence its necessary that u should migrate inside your file(whch contains stuff listed in (b.))<br>
-        1.)just open this whole file in vs code and ensure the terminal is pointing inside  the file(if not use 'cd' to migrate)<br>
-        2.)above step ensure you want end up getting weird errors for wrong path(also you dont have to update imagespath individually)<br>
+<h1>Python Project for Beginners</h1>
 
-  (d.)should have mysql on system as well as mysql connector library installed in python<br>
-        1.)Dont forget to add your password and database name inside programme (everytwhere)and ensure that name of table and database matches that u will create in Mysql before hand<br>
-         "b1=mc.connect(host="localhost",user="root",passwd="enter her ",database="Truckinfo",auth_plugin='mysql_native_password')<br>
-          c=b1.cursor()"<br>
+<h2>Requirements</h2>
 
-        2.)so before hand just create this In Myql<br>
-          creat database=Truckinfo<br>
-             1.)Table1-Truckinfo<br>
-             2.)Table2- registeruser<br>
-<br>
-Final note:
-This project is designed for Python beginners and students in classes 11-12 who are exploring Python as part of their curriculum. Using Tkinter, Python’s built-in GUI library, this project provides a practical example to understand basic Python concepts and build simple applications. It aims to help students strengthen their coding skills and prepare effectively for their exams by applying what they’ve learned in an interactive and fun way.
+<p><strong>Python Version:</strong> 3.10 (updated from 3.8)</p>
 
-<br>
-        -
+<h3>Libraries List</h3>
+<ul>
+    <li>Tkinter (tk and ttk)</li>
+    <li>mySQL.connector</li>
+    <li>os (path)</li>
+    <li>PIL (image)</li>
+    <li>reportlab (pdf)</li>
+    <li>CSV</li>
+    <li>pandas (optional)</li>
+</ul>
+
+<h3>Project Structure</h3>
+<p>All the files in the repository must be present inside a single directory on your machine:</p>
+<ul>
+    <li>images</li>
+    <li>Two CSV files (regdatabase, truckdatabase)</li>
+    <li>Sample memo PDF (generated from the program)</li>
+    <li>Python (.py) files</li>
+</ul>
+
+<h3>Paths Configuration</h3>
+<p>Paths are used at many places, so it is necessary to navigate to your project directory:</p>
+<ol>
+    <li>Open this entire directory in VS Code and ensure the terminal is pointing inside the directory (use 'cd' if necessary).</li>
+    <li>This step ensures you avoid errors due to incorrect paths, and you won't need to update image paths individually.</li>
+</ol>
+
+<h3>MySQL Setup</h3>
+<p>You should have MySQL installed on your system as well as the MySQL connector library in Python:</p>
+<ol>
+    <li>Add your password and database name inside the program and ensure that the table and database names match those you will create in MySQL beforehand:
+    <pre>
+b1=mc.connect(host="localhost", user="root", passwd="enter_here", database="Truckinfo", auth_plugin='mysql_native_password')
+c=b1.cursor()
+    </pre>
+    </li>
+    <li>Create the following in MySQL beforehand:
+        <ul>
+            <li>Database: <code>Truckinfo</code></li>
+            <li>Tables:
+                <ul>
+                    <li><code>Truckinfo</code></li>
+                    <li><code>registeruser</code></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Final Note</h2>
+<p>This project is designed for Python beginners and students in classes 11-12 who are exploring Python as part of their curriculum. Using Tkinter, Python’s built-in GUI library, this project provides a practical example to understand basic Python concepts and build simple applications. It aims to help students strengthen their coding skills and prepare effectively for their exams by applying what they’ve learned in an interactive and fun way.</p>
+
+</body>
+</html>
 
 
       
